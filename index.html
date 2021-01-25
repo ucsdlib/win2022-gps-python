@@ -1,25 +1,25 @@
 ---
 layout: workshop
 root: .
-venue: "Python Programming- School of Global Policy and Strategy"      # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room 3201, 9500 Gilman Drive, #0519, La Jolla, CA"    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
+venue: "Virtual Python Programming- School of Global Policy and Strategy"      # brief name of host site without address (e.g., "Euphoric State University")
+address: "Zoom Meeting, 9500 Gilman Drive, #0519, La Jolla, CA"    # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
 country: "us"    # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"   # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "32.885125,-117.241173"     # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
-humandate: "Jan 27-Feb 10, 2020"  # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "03:30pm-6:30pm"  # human-readable time (e.g., "9:00 am - 4:30 pm")
-startdate: "2020-01-27"  # use YYYY-MM-DD format like "2015-01-01"
-enddate: "2020-02-10"  # use YYYY-MM-DD format like" 2015-01-02"
-days: "Mon/Wed"
-instructor: ["Edwin Juarez (School of Medicine)", "Federico Arroyo (GPS)"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Reid Otsuji","Rick Mccosh", "Stephanie Labou"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+humandate: "Jan 25-Feb 11, 2021"  # human-readable date (e.g., "Feb 17-18, 2020")
+humantime: "12:30pm-1:50pm"  # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: "2021-01-25"  # use YYYY-MM-DD format like "2015-01-01"
+enddate: "2021-02-11"  # use YYYY-MM-DD format like" 2015-01-02"
+days: "Tues/Thurs"
+instructor: ["Kimberly Thomas (Research ITS)", "Harry Zhao (Research ITS)"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Reid Otsuji","Rick Mccosh", "Stephanie Labou", "TA: Chi Gao"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "rotsuji@ucsd.edu"    # contact email address for workshop organizer, such as "grace@hopper.org"
-etherpad: "https://hackmd.io/@U2NG/HJncc8UWU" # optional (insert the URL for your Etherpad if you're using one)
+etherpad: "https://hackmd.io/avGpM3iiTZ6cdO5p2RXsow" # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 ---
 <!--
   HEADER
-
+4
   Edit the values in the block above to be appropriate for your workshop.
   If the value is not 'true', 'false', 'null', or a number, please use
   double quotation marks around the value, unless specified otherwise.
@@ -67,7 +67,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   <strong>Who:</strong>
   The course is aimed at GPS graduate students.
   <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+    be presented in the class.</strong>
 </p>
 
 <!--
@@ -82,10 +82,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <strong>Zoom - link and access information in Canvas<strong>
 </p>
 {% endif %}
 
@@ -164,9 +161,9 @@ A certificate of proficiency will be given to students who:
 -->
 {% if page.etherpad %}
 <p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <strong>HackMD Collaborative Notes:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this HackMD for taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
